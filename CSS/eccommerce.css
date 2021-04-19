@@ -1,6 +1,20 @@
 :root{
     --cor-ecommerce:  #181818;
+    --cor-titulo: #ffb900;
 }
+
+a{ 
+    color: var(--cor-titulo);
+} 
+
+a:hover{ 
+    color: var(--cor-titulo);
+} 
+
+a:link { 
+    text-decoration:none; 
+    color: var(--cor-titulo);
+} 
 
 body{
     background-color: var(--cor-ecommerce);
@@ -10,6 +24,50 @@ body{
     background-color: var(--cor-ecommerce);
 }
 
+.conteudo-navegacao{
+    margin: auto;
+}
+
 .imagem-logo{
+    width: 10%;
+    margin: auto;
+}
+
+.links-navegacao{
+   color: var(--cor-titulo);
+   font-weight: bold;
+   font-size: 18px;
+}
+
+.row-navbar{
+    width: 100%;
+}
+
+.input-search{
+    width: 350px;
+    position: absolute;
+    padding-top: 35px;
+}
+
+.input-search input,
+.input-search input:hover,
+.input-search input:focus{
+    border: none;
+    border-radius: 0;
+    background-color: transparent;
+}
+
+.input-search .input-group{
+    border-bottom: 1px solid #ced4da;
+}
+
+/***
+BOOTSTRAP SOBSCRITO
+***/
+
+.list-group-item {
+    color: var(--cor-titulo);
+    background-color: transparent;
+    border: none;
     margin: auto;
 }
