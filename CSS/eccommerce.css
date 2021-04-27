@@ -101,6 +101,14 @@ body{
     font-size:40px;
 }
 
+.card-mais-vendido {
+    cursor: pointer;
+}
+
+.text-center {
+    text-align: center;
+}
+
 /***
 BOOTSTRAP SOBSCRITO
 ***/
