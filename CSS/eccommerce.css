@@ -14,6 +14,10 @@ a:hover{
     color: var(--cor-titulo);
 } 
 
+.links-navegacao a:hover {
+    border-bottom: 1px solid black;
+}
+
 a:link { 
     text-decoration:none; 
     color: var(--cor-titulo);
@@ -75,6 +79,7 @@ body{
     background-color: rgb(66, 60, 60);
     vertical-align: middle !important;
     color: #fff;
+    letter-spacing: 3px;
 }
 
 .vertical-centro {
