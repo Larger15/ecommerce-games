@@ -38,8 +38,9 @@ body{
 
 .links-navegacao{
    color: var(--cor-titulo);
-   font-weight: bold;
    font-size: 18px;
+   font-weight: 200;
+   text-transform: uppercase;
 }
 
 .row-navbar{
@@ -66,6 +67,7 @@ body{
 
 .vantagens-ecommerce {
     height: inherit;
+    text-transform: uppercase;
 }
 
 .vantagens-ecommerce .row{
