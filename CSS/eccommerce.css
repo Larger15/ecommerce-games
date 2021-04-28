@@ -149,6 +149,16 @@ body{
     background-color: rgb(66, 60, 60);
 }
 
+.icon-social {
+    font-size: 25px;
+    width: 45px;  
+}
+
+.title-footer {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
 /***
 BOOTSTRAP SOBSCRITO
 ***/
