@@ -109,6 +109,46 @@ body{
     text-align: center;
 }
 
+.title-card {
+    min-height: 80px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.card-classificacao{
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.icon-star {
+    color: rgb(207, 169, 63);
+}
+
+.card-descricao {
+    font-size: 11px;
+    text-align: center;
+    padding-top: 10px;
+    border-top: 1px solid;
+    min-height: 80px;
+    margin-top: 15px;
+}
+
+.card-preco {
+    font-size: 25px;
+    font-weight: bold;
+    color: #60606b;
+}
+
+.card-botao-adquirir {
+    padding-top: 20px;
+}
+
+.footer-ecommerce { 
+    height: 200px;
+    color: #FFF;
+    background-color: rgb(66, 60, 60);
+}
+
 /***
 BOOTSTRAP SOBSCRITO
 ***/
