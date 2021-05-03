@@ -1,5 +1,4 @@
-
-var listaJogos = [
+var listaJogosJson = [
     {
         nmJogo: "Hitman 3",
         txtDescricao: "Juntamente com Diana Burnwood e Lucas Grey, o Agente 47 (voz de David Bateson) tem de enfrentar O Constant e os seus parceiros misteriosos para abater de uma vez por todas a organização criminosa Providence.",
@@ -151,4 +150,3 @@ var listaJogos = [
         caminhoImagemSecundaria: "/IMAGES/Werewolf_The_Apocalypse_Earthblood_Banner.jpg"
     }
 ]
-
