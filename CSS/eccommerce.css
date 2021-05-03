@@ -163,6 +163,22 @@ body{
     padding-left: 35px;;
 }
 
+.fr {
+    float: right;
+}
+
+.pr-50 {
+    padding-right: 50px;
+}
+
+.card-plataforma {
+    cursor: pointer;
+}
+
+.card-plataforma:hover {
+    opacity: 0.7;
+}
+
 /***
 BOOTSTRAP SOBSCRITO
 ***/
