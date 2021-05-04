@@ -6,13 +6,13 @@ var listaJogosJson = [
         nmDistribuidora: "IO Interactive",
         nmDataLancamento: "20 de janeiro de 2021",
         nmGenero: "Furtivo",
-        listaPlataformas: ["X-249.95", "N-59.99", "P-319.90"],
+        listaPlataformas: ["X-249.95", "N-$59.99", "P-319.90"],
         nrEstrelasCheias: 5,
         nrEstrelasMetade: 0,
         nrEstrelasVazias: 0,
         urlVideo: "https://www.youtube.com/watch?v=avAXhnbs69w",
-        caminhoImagemPrincipal: "/IMAGES/Hitman_3_Capa.png",
-        caminhoImagemSecundaria: "/IMAGES/Hitman_3_Banner.jpg"
+        caminhoImagemPrincipal: "IMAGES/Hitman_3_Capa.png",
+        listaImagens: ["IMAGES/Hitman_3_Banner.jpg"]
     },
     {
         nmJogo: "Werewolf: The Apocalypse – Heart of the Forest",
@@ -26,8 +26,8 @@ var listaJogosJson = [
         nrEstrelasMetade: 1,
         nrEstrelasVazias: 1,
         urlVideo: "https://www.youtube.com/watch?v=IwMxRFs8Tco",
-        caminhoImagemPrincipal: "/IMAGES/Werewolf_The_Apocalypse_Heart_of_the_Forest_Capa.png",
-        caminhoImagemSecundaria: "/IMAGES/Werewolf_The_Apocalypse_Heart_of_the_Forest_Banner.jpg"
+        caminhoImagemPrincipal: "IMAGES/Werewolf_The_Apocalypse_Heart_of_the_Forest_Capa.png",
+        caminhoImagemSecundaria: "IMAGES/Werewolf_The_Apocalypse_Heart_of_the_Forest_Banner.jpg"
     },
     {
         nmJogo: "Scott Pilgrim vs. the World: The Game – Complete Edition",
@@ -41,8 +41,8 @@ var listaJogosJson = [
         nrEstrelasMetade: 0,
         nrEstrelasVazias: 2,
         urlVideo: "https://www.youtube.com/watch?v=wUU_wRjdi2I",
-        caminhoImagemPrincipal: "/IMAGES/Scott_Pilgrim_vs_the_World_Capa.jpg",
-        caminhoImagemSecundaria: "/IMAGES/Scott_Pilgrim_vs_the_World_Banner.jpg"
+        caminhoImagemPrincipal: "IMAGES/Scott_Pilgrim_vs_the_World_Capa.jpg",
+        caminhoImagemSecundaria: "IMAGES/Scott_Pilgrim_vs_the_World_Banner.jpg"
     },
     {
         nmJogo: "Ride 4",
@@ -51,13 +51,13 @@ var listaJogosJson = [
         nmDistribuidora: "Milestone S.r.l.",
         nmDataLancamento: "8 de outubro de 2020",
         nmGenero: "Corrida, Simulação, Esportes",
-        listaPlataformas: ["X-229.95", "N-00.00", "P-249.50"],
+        listaPlataformas: ["X-229.95", "P-249.50"],
         nrEstrelasCheias: 4,
         nrEstrelasMetade: 0,
         nrEstrelasVazias: 1,
         urlVideo: "https://www.youtube.com/watch?v=xBQ7EYTuo88",
-        caminhoImagemPrincipal: "/IMAGES/Ride_4_Capa.jpg",
-        caminhoImagemSecundaria: "/IMAGES/Ride_4_Banner.jpg"
+        caminhoImagemPrincipal: "IMAGES/Ride_4_Capa.jpg",
+        caminhoImagemSecundaria: "IMAGES/Ride_4_Banner.jpg"
     },
     {
         nmJogo: "Cyber Shadow",
@@ -71,8 +71,8 @@ var listaJogosJson = [
         nrEstrelasMetade: 0,
         nrEstrelasVazias: 1,
         urlVideo: "https://www.youtube.com/watch?v=_VtT9JS-8F4",
-        caminhoImagemPrincipal: "/IMAGES/Cyber_Shadow_Capa.jpg",
-        caminhoImagemSecundaria: "/IMAGES/Cyber_Shadow_Banner.jpg"
+        caminhoImagemPrincipal: "IMAGES/Cyber_Shadow_Capa.jpg",
+        caminhoImagemSecundaria: "IMAGES/Cyber_Shadow_Banner.jpg"
     },
     {
         nmJogo: "Atelier Ryza Ever Darkness & the Secret Hideout",
@@ -81,13 +81,13 @@ var listaJogosJson = [
         nmDistribuidora: "Koei Tecmo",
         nmDataLancamento: "26 de setembro de 2019",
         nmGenero: "RPG",
-        listaPlataformas: ["X-00.00", "N-59.99", "P-249.90"],
+        listaPlataformas: ["N-59.99", "P-249.90"],
         nrEstrelasCheias: 4,
         nrEstrelasMetade: 1,
         nrEstrelasVazias: 0,
         urlVideo: "https://www.youtube.com/watch?v=5LHmVDPLAiw",
-        caminhoImagemPrincipal: "/IMAGES/Atelier_Ryza_Ever_Darkness_and_the_Secret_Hideout_Capa.jpg",
-        caminhoImagemSecundaria: "/IMAGES/Atelier_Ryza_Ever_Darkness_and_the_Secret_Hideout_Banner.jpg"
+        caminhoImagemPrincipal: "IMAGES/Atelier_Ryza_Ever_Darkness_and_the_Secret_Hideout_Capa.jpg",
+        caminhoImagemSecundaria: "IMAGES/Atelier_Ryza_Ever_Darkness_and_the_Secret_Hideout_Banner.jpg"
     },
     {
         nmJogo: "The Medium",
@@ -96,13 +96,13 @@ var listaJogosJson = [
         nmDistribuidora: "Bloober Team",
         nmDataLancamento: "28 de janeiro de 2021",
         nmGenero: "Terror Psicológico",
-        listaPlataformas: ["X-184.95", "N-00.00", "P-00.00"],
+        listaPlataformas: ["X-184.95"],
         nrEstrelasCheias: 4,
         nrEstrelasMetade: 1,
         nrEstrelasVazias: 0,
         urlVideo: "https://www.youtube.com/watch?v=lMgm0GdMeZE",
-        caminhoImagemPrincipal: "/IMAGES/The_Medium_Capa.jpg",
-        caminhoImagemSecundaria: "/IMAGES/The_Medium_Banner.jpg"
+        caminhoImagemPrincipal: "IMAGES/The_Medium_Capa.jpg",
+        caminhoImagemSecundaria: "IMAGES/The_Medium_Banner.jpg"
     },
     {
         nmJogo: "Re-ZERO - Starting Life in Another World: The Prophecy of the Throne",
@@ -111,13 +111,13 @@ var listaJogosJson = [
         nmDistribuidora: "Spike Chunsoft",
         nmDataLancamento: "28 de janeiro de 2021",
         nmGenero: "Drama, TRPG",
-        listaPlataformas: ["X-00.00", "N-59.99", "P-299.90"],
+        listaPlataformas: ["N-59.99", "P-299.90"],
         nrEstrelasCheias: 3,
         nrEstrelasMetade: 1,
         nrEstrelasVazias: 1,
         urlVideo: "https://www.youtube.com/watch?v=rtlneRTAM5g",
-        caminhoImagemPrincipal: "/IMAGES/Re_ZERO_Starting_Life_in_Another_World_The_Prophecy_of_the_Throne_Capa.jpg",
-        caminhoImagemSecundaria: "/IMAGES/Re_ZERO_Starting_Life_in_Another_World_The_Prophecy_of_the_Throne_Banner.jpg"
+        caminhoImagemPrincipal: "IMAGES/Re_ZERO_Starting_Life_in_Another_World_The_Prophecy_of_the_Throne_Capa.jpg",
+        caminhoImagemSecundaria: "IMAGES/Re_ZERO_Starting_Life_in_Another_World_The_Prophecy_of_the_Throne_Banner.jpg"
     },
     {
         nmJogo: "Ys IX: Monstrum Nox",
@@ -126,13 +126,13 @@ var listaJogosJson = [
         nmDistribuidora: "Nihon Falcom",
         nmDataLancamento: "26 de setembro de 2019",
         nmGenero: "ARPG",
-        listaPlataformas: ["X-00.00", "N-00.00", "P-299.90"],
+        listaPlataformas: ["P-299.90"],
         nrEstrelasCheias: 3,
         nrEstrelasMetade: 0,
         nrEstrelasVazias: 2,
         urlVideo: "https://www.youtube.com/watch?v=2G-aTwUY8I4",
-        caminhoImagemPrincipal: "/IMAGES/Ys_IX_Monstrum_Nox_Capa.png",
-        caminhoImagemSecundaria: "/IMAGES/Ys_IX_Monstrum_Nox_Banner.png"
+        caminhoImagemPrincipal: "IMAGES/Ys_IX_Monstrum_Nox_Capa.png",
+        caminhoImagemSecundaria: "IMAGES/Ys_IX_Monstrum_Nox_Banner.png"
     },
     {
         nmJogo: "Werewolf: The Apocalypse – Earthblood",
@@ -141,12 +141,12 @@ var listaJogosJson = [
         nmDistribuidora: "Nacon",
         nmDataLancamento: "4 de fevereiro de 2021",
         nmGenero: "Ação, RPG",
-        listaPlataformas: ["X-184.95", "N-00.00", "P-249.50"],
+        listaPlataformas: ["X-184.95", "P-249.50"],
         nrEstrelasCheias: 4,
         nrEstrelasMetade: 1,
         nrEstrelasVazias: 0,
         urlVideo: "https://www.youtube.com/watch?v=p7MRD5nTTbk",
-        caminhoImagemPrincipal: "/IMAGES/Werewolf_The_Apocalypse_Earthblood_Capa.jpg",
-        caminhoImagemSecundaria: "/IMAGES/Werewolf_The_Apocalypse_Earthblood_Banner.jpg"
+        caminhoImagemPrincipal: "IMAGES/Werewolf_The_Apocalypse_Earthblood_Capa.jpg",
+        caminhoImagemSecundaria: "IMAGES/Werewolf_The_Apocalypse_Earthblood_Banner.jpg"
     }
 ]

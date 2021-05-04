@@ -14,17 +14,6 @@
             <nav class="navbar navbar-light bg-ecomerce">
                 <div class="container">
                     <div class="row row-navbar">
-                        <div class="input-search">
-                            <div class="input-group">
-                                <input class="form-control" type="text" placeholder="Pesquise por algo">
-                                <svg style="margin-top: 10px;" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                    fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-                                    <path
-                                        d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z">
-                                    </path>
-                                </svg>
-                            </div>
-                        </div>
                         <img src="images/logo.png" class="imagem-logo" alt="GameHub" title="GameHub">
                     </div>
                     <div class="row row-navbar mt-5">
@@ -36,7 +25,7 @@
                                 <a href="#">Plataformas</a>
                             </li>
                             <li class="list-group-item">
-                                <a href="#">Anúncios</a>
+                                <a href="index.html">Anúncios</a>
                             </li>
                             <li class="list-group-item">
                                 <a href="#">Conta</a>
@@ -51,62 +40,93 @@
         </div>
         <div class='plataformas-ecoomerce'>
             <div class="row col-sm-10 offset-sm-1 mb-5 mt-5">
-                <div class="col-md-4 pr-50 card-plataforma">
-                  <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-                    <div class="col p-4 d-flex flex-column position-static">
-                      <h3 class="mb-0 text-primary">Nintendo<i class="fas fa-gamepad fr"></i></h3>              
+                <div class="col-md-4 pr-50 card-plataforma" onclick="exibirCardJogosPorPlataforma('N')">
+                    <div
+                        class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <div class="col p-4 d-flex flex-column position-static">
+                            <h3 class="mb-0 text-danger">Nintendo<i class="fas fa-gamepad fr"></i></h3>
+                        </div>
                     </div>
-                    <div class="col-auto d-none d-lg-block">
-            
-                    </div>
-                  </div>
                 </div>
-                <div class="col-md-4 pr-50  card-plataforma">
-                  <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-                    <div class="col p-4 d-flex flex-column position-static">
-                      <h3 class="mb-0 text-danger">Xbox <i class="fab fa-xbox fr"></i> </h3>              
+                <div class="col-md-4 pr-50  card-plataforma" onclick="exibirCardJogosPorPlataforma('X')">
+                    <div
+                        class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <div class="col p-4 d-flex flex-column position-static">
+                            <h3 class="mb-0 text-success">Xbox <i class="fab fa-xbox fr"></i> </h3>
+                        </div>
                     </div>
-                    <div class="col-auto d-none d-lg-block">
-                    
-                    </div>
-                  </div>
                 </div>
-                <div class="col-md-4  card-plataforma">
-                    <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-                      <div class="col p-4 d-flex flex-column position-static">
-                        <h3 class="mb-0 text-success">Playstation <i class="fab fa-playstation fr"></i> </h3>              
-                      </div>
-                      <div class="col-auto d-none d-lg-block">
-              
-                      </div>
+                <div class="col-md-4  card-plataforma" onclick="exibirCardJogosPorPlataforma('P')">
+                    <div
+                        class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <div class="col p-4 d-flex flex-column position-static">
+                            <h3 class="mb-0 text-primary">Playstation <i class="fab fa-playstation fr"></i> </h3>
+                        </div>
                     </div>
-                  </div>
-              </div>
+                </div>
+            </div>
 
         </div>
+
+        <div class="row col-sm-10 offset-sm-1" id="jogosPlataforma">
+           
+        </div>
+
+        <div id="cardModelo" style="display: none;">
+            <div class="col-md-4 #clasMargin#">
+                <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative card-game">
+                    <div class="col-lg-7 col-12 p-4 d-flex flex-column position-static">
+                        <h3 class="mb-1 titulo-jogo-plataforma vertical-centro">#nmJogo#</h3>
+                        <div clas="card-classificacao text-center mb-2">
+                            #estrelas#
+                        </div>
+                        <div class="mb-1 text-muted">#dataLancamento#</div>
+                        <div class="card-preco mt-5 mb-5">
+                            #vlrJogo#
+                        </div>
+                        <div class="card-botao-adquirir">
+                            <button type="button" class="btn btn-success"><span class="fas fa-shopping-cart"></span>
+                                Adicionar ao Carrinho</button>
+                        </div>
+                    </div>
+                    <div class="col-5 d-none d-lg-block">
+                        <div class="imagem-plataforma" #imagem#></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
         <footer class="footer-ecommerce">
             <div class="container w-100">
-                
+
                 <div class="row w-100">
                     <div class="col-sm-4 mt-5">
-                        <h6 class="title-footer mb-4">Redes Sociais:</h6>                          
+                        <h6 class="title-footer mb-4">Redes Sociais:</h6>
                         <span class="fab fa-twitter icon-social"></span>
                         <span class="fab fa-facebook icon-social"></span>
                         <span class="fab fa-google-plus-g icon-social"></span>
                         <span class="fab fa-whatsapp icon-social"></span>
                     </div>
-                    <div class="col-sm-8  mt-5">                            
+                    <div class="col-sm-8  mt-5">
                         <h6 class="title-footer mb-4">GameHub</h6>
-                        © 2021 GameHub Todas as marcas comerciais são propriedade dos respectivos proprietários nos E.U.A. e outros países.
+                        © 2021 GameHub Todas as marcas comerciais são propriedade dos respectivos proprietários nos
+                        E.U.A. e outros países.
                     </div>
                 </div>
-                
-            </div>    
+
+            </div>
         </footer>
-        </div>
+
+
+
+
+    </div>
     </div>
     <script src="js/jquery-3.6.0.js"></script>
-    <script src="https://getbootstrap.com/docs/5.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <script src="https://getbootstrap.com/docs/5.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+        crossorigin="anonymous"></script>
     <script src="js/jogos.js"></script>
     <script src="js/ecommerce.js"></script>
     <script src="js/plataformas.js"></script>

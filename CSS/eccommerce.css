@@ -179,6 +179,26 @@ body{
     opacity: 0.7;
 }
 
+.card-game {
+    height: 350px;
+}
+
+.titulo-jogo-plataforma {
+    font-size: 18px;
+    min-height: 60px;
+    justify-content: flex-start !important;
+
+}
+
+.imagem-plataforma {
+    -webkit-background-size: cover !important;
+    -moz-background-size: cover !important;
+    -o-background-size: cover !important;
+    background-size: cover !important;
+    height: 100%;
+    width: 100%;
+}
+
 /***
 BOOTSTRAP SOBSCRITO
 ***/
