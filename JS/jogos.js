@@ -21,7 +21,7 @@ var listaJogosJson = [
         nmDistribuidora: "Walkabout Games",
         nmDataLancamento: "13 de outubro de 2020",
         nmGenero: "Drama, RPG",
-        listaPlataformas: ["X-R$ 54,95", "N- US$ 14,99", "P-R$ 79,90"],
+        listaPlataformas: ["X-R$ 54,95", "N-US$ 14,99", "P-R$ 79,90"],
         nrEstrelasCheias: 3,
         nrEstrelasMetade: 1,
         nrEstrelasVazias: 1,
