@@ -199,6 +199,15 @@ body{
     width: 100%;
 }
 
+.label-informacao {
+    font-weight: 600;
+}
+
+.info-conta {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
 /***
 BOOTSTRAP SOBSCRITO
 ***/
