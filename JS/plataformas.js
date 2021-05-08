@@ -1,14 +1,16 @@
 $( document ).ready(function() {
     
-    exibirCardJogosPorPlataforma(TipoPlataforma.NINENTO);
+    exibirCardJogosPorPlataforma(TipoPlataforma.NINTENDO);
 
 });
 
 const TipoPlataforma = {
-    "NINENTO" : "N",
+    "NINTENDO" : "N",
     "PLAYSTATION" : "P",
     "XBOX" : "X"
 }
+
+var jogoSelectPreview = new Object();
 
 function exibirCardJogosPorPlataforma(tipoPlataformaSelect) {
 
@@ -133,6 +135,8 @@ function showInformacoesJogo(idJogo) {
     idJogo = parseInt(idJogo);
 
     var jogoJson = getJogoPorId(idJogo);
+
+    jogoSelectPreview = jogoJson;
     
     popularInformacoesJogo(jogoJson);
 
@@ -152,7 +156,21 @@ function popularInformacoesJogo(jogoJson) {
 
 function popularinformacoesDiversas(jogoJson) {
 
-    $("#nmJogoPreview").text(jogoJson.nmJogo)
+    $("#nmJogoPreview").text(jogoJson.nmJogo);
+
+    $("#estrelasJogoPreview").html(montarEstrelas(jogoJson));
+
+    $("#dtLancJogoPreview").text(jogoJson.nmDataLancamento);
+
+    $("#sinopseJogoPreview").text(jogoJson.txtDescricao);
+
+    $("#generoJogoPreview").text(jogoJson.nmGenero);
+
+    $("#desenvolvedoraJogoPreview").text(jogoJson.nmDesenvolvedora);
+
+    $("#distribuidoraJogoPreview").text(jogoJson.nmDistribuidora);
+
+    $("#precoJogoPreview").text(jogoSelectPreview.vlrJogo);
 
 }
 
