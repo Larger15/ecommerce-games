@@ -255,6 +255,11 @@ body{
     color: gray;
 }
 
+.txt-sinopse {
+    font-size: 14px;
+    text-align: justify;
+}
+
 @media (max-width: 1000px) {
     .pr-50 {
         padding-right: 0px;

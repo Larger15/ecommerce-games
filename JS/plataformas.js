@@ -12,6 +12,8 @@ const TipoPlataforma = {
 
 var jogoSelectPreview = new Object();
 
+var listaJogosPorPlataforma = new Array();
+
 function exibirCardJogosPorPlataforma(tipoPlataformaSelect) {
 
     var listaJogosPorPlataforma = getListaJogosPorPlataforma(tipoPlataformaSelect);
@@ -23,7 +25,7 @@ function exibirCardJogosPorPlataforma(tipoPlataformaSelect) {
 
 function getListaJogosPorPlataforma(tipoPlataformaSelect) {
 
-    var listaJogosFiltrados = new Array();
+    listaJogosFiltrados = new Array();
 
     for (var i = 0; i < listaJogosJson.length; i++) {
 
@@ -206,10 +208,10 @@ function getJogoPorId(idjogo) {
 
     var jogo = new Object();
 
-    for (var i =0; i < listaJogosJson.length; i++) {
+    for (var i =0; i < listaJogosFiltrados.length; i++) {
 
-        if (listaJogosJson[i].idJogo == idjogo) {
-            jogo = listaJogosJson[i];
+        if (listaJogosFiltrados[i].idJogo == idjogo) {
+            jogo = listaJogosFiltrados[i];
             break;
         }
 
