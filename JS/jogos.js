@@ -13,7 +13,7 @@ var listaJogosJson = [
         nrEstrelasVazias: 0,
         urlVideo: "https://www.youtube.com/watch?v=avAXhnbs69w",
         caminhoImagemPrincipal: "IMAGES/Hitman_3/Hitman_3_Capa.png",
-        listaImagens: ["IMAGES/Hitman_3/Hitman_3_Capa.png", "IMAGES/Hitman_3/Hitman_3_Banner.jpg", "IMAGES/Hitman_3/image001.png", "IMAGES/Hitman_3/image002.jpg", "IMAGES/Hitman_3/image003.jpg", "IMAGES/Hitman_3/image004.jpg", "IMAGES/Hitman_3/image005.png"]
+        listaImagens: ["IMAGES/Hitman_3/image001.png", "IMAGES/Hitman_3/image002.jpg", "IMAGES/Hitman_3/image003.jpg", "IMAGES/Hitman_3/image004.jpg", "IMAGES/Hitman_3/image005.png"]
     },
     {
         idJogo: 2,
@@ -29,7 +29,7 @@ var listaJogosJson = [
         nrEstrelasVazias: 1,
         urlVideo: "https://www.youtube.com/watch?v=IwMxRFs8Tco",
         caminhoImagemPrincipal: "IMAGES/Werewolf_The_Apocalypse_Heart_of_the_Forest/Werewolf_The_Apocalypse_Heart_of_the_Forest_Capa.png",
-        listaImagens: ["IMAGES/Werewolf_The_Apocalypse_Heart_of_the_Forest/Werewolf_The_Apocalypse_Heart_of_the_Forest_Capa.png", "IMAGES/Werewolf_The_Apocalypse_Heart_of_the_Forest/Werewolf_The_Apocalypse_Heart_of_the_Forest_Banner.jpg", "IMAGES/Werewolf_The_Apocalypse_Heart_of_the_Forest/image006.jpg", "IMAGES/Werewolf_The_Apocalypse_Heart_of_the_Forest/image007.jpg", "IMAGES/Werewolf_The_Apocalypse_Heart_of_the_Forest/image008.jpg", "IMAGES/Werewolf_The_Apocalypse_Heart_of_the_Forest/image009.jpg", "IMAGES/Werewolf_The_Apocalypse_Heart_of_the_Forest/image010.jpg"]
+        listaImagens: ["IMAGES/Werewolf_The_Apocalypse_Heart_of_the_Forest/image006.jpg", "IMAGES/Werewolf_The_Apocalypse_Heart_of_the_Forest/image007.jpg", "IMAGES/Werewolf_The_Apocalypse_Heart_of_the_Forest/image008.jpg", "IMAGES/Werewolf_The_Apocalypse_Heart_of_the_Forest/image009.jpg", "IMAGES/Werewolf_The_Apocalypse_Heart_of_the_Forest/image010.jpg"]
     },
     {
         idJogo: 3,
@@ -45,7 +45,7 @@ var listaJogosJson = [
         nrEstrelasVazias: 2,
         urlVideo: "https://www.youtube.com/watch?v=wUU_wRjdi2I",
         caminhoImagemPrincipal: "IMAGES/Scott_Pilgrim_vs_the_World_The_Game_Complete_Edition/Scott_Pilgrim_vs_the_World_Capa.jpg",
-        listaImagens: ["IMAGES/Scott_Pilgrim_vs_the_World_The_Game_Complete_Edition/Scott_Pilgrim_vs_the_World_Capa.jpg", "IMAGES/Scott_Pilgrim_vs_the_World_The_Game_Complete_Edition/Scott_Pilgrim_vs_the_World_Banner.jpg", "IMAGES/Scott_Pilgrim_vs_the_World_The_Game_Complete_Edition/image011.png", "IMAGES/Scott_Pilgrim_vs_the_World_The_Game_Complete_Edition/image012.jpg", "IMAGES/Scott_Pilgrim_vs_the_World_The_Game_Complete_Edition/image013.png", "IMAGES/Scott_Pilgrim_vs_the_World_The_Game_Complete_Edition/image014.png", "IMAGES/Scott_Pilgrim_vs_the_World_The_Game_Complete_Edition/image015.jpg"]
+        listaImagens: ["IMAGES/Scott_Pilgrim_vs_the_World_The_Game_Complete_Edition/image011.png", "IMAGES/Scott_Pilgrim_vs_the_World_The_Game_Complete_Edition/image012.jpg", "IMAGES/Scott_Pilgrim_vs_the_World_The_Game_Complete_Edition/image013.png", "IMAGES/Scott_Pilgrim_vs_the_World_The_Game_Complete_Edition/image014.png", "IMAGES/Scott_Pilgrim_vs_the_World_The_Game_Complete_Edition/image015.jpg"]
     },
     {
         idJogo: 4,
@@ -61,7 +61,7 @@ var listaJogosJson = [
         nrEstrelasVazias: 1,
         urlVideo: "https://www.youtube.com/watch?v=xBQ7EYTuo88",
         caminhoImagemPrincipal: "IMAGES/Ride_4/Ride_4_Capa.jpg",
-        listaImagens: ["IMAGES/Ride_4/Ride_4_Capa.jpg", "IMAGES/Ride_4/Ride_4_Banner.jpg", "IMAGES/Ride_4/image016.jpg", "IMAGES/Ride_4/image017.jpg", "IMAGES/Ride_4/image018.jpg", "IMAGES/Ride_4/image019.jpg", "IMAGES/Ride_4/image020.jpg"]
+        listaImagens: ["IMAGES/Ride_4/image016.jpg", "IMAGES/Ride_4/image017.jpg", "IMAGES/Ride_4/image018.jpg", "IMAGES/Ride_4/image019.jpg", "IMAGES/Ride_4/image020.jpg"]
     },
     {
         idJogo: 5,
@@ -77,7 +77,7 @@ var listaJogosJson = [
         nrEstrelasVazias: 1,
         urlVideo: "https://www.youtube.com/watch?v=_VtT9JS-8F4",
         caminhoImagemPrincipal: "IMAGES/Cyber_Shadow/Cyber_Shadow_Capa.jpg",
-        listaImagens: ["IMAGES/Cyber_Shadow/Cyber_Shadow_Capa.jpg", "IMAGES/Cyber_Shadow/Cyber_Shadow_Banner.jpg", "IMAGES/Cyber_Shadow/image021.jpg", "IMAGES/Cyber_Shadow/image022.jpg", "IMAGES/Cyber_Shadow/image023.jpg", "IMAGES/Cyber_Shadow/image024.jpg", "IMAGES/Cyber_Shadow/image025.jpg"]
+        listaImagens: ["IMAGES/Cyber_Shadow/image021.jpg", "IMAGES/Cyber_Shadow/image022.jpg", "IMAGES/Cyber_Shadow/image023.jpg", "IMAGES/Cyber_Shadow/image024.jpg", "IMAGES/Cyber_Shadow/image025.jpg"]
     },
     {
         idJogo: 6,
@@ -93,7 +93,7 @@ var listaJogosJson = [
         nrEstrelasVazias: 0,
         urlVideo: "https://www.youtube.com/watch?v=5LHmVDPLAiw",
         caminhoImagemPrincipal: "IMAGES/Atelier_Ryza_Ever_Darkness_and_the_Secret_Hideout/Atelier_Ryza_Ever_Darkness_and_the_Secret_Hideout_Capa.jpg",
-        listaImagens: ["IMAGES/Atelier_Ryza_Ever_Darkness_and_the_Secret_Hideout/Atelier_Ryza_Ever_Darkness_and_the_Secret_Hideout_Capa.jpg", "IMAGES/Atelier_Ryza_Ever_Darkness_and_the_Secret_Hideout/Atelier_Ryza_Ever_Darkness_and_the_Secret_Hideout_Banner.jpg", "IMAGES/Atelier_Ryza_Ever_Darkness_and_the_Secret_Hideout/image026.jpg", "IMAGES/Atelier_Ryza_Ever_Darkness_and_the_Secret_Hideout/image027.jpg", "IMAGES/Atelier_Ryza_Ever_Darkness_and_the_Secret_Hideout/image028.jpg", "IMAGES/Atelier_Ryza_Ever_Darkness_and_the_Secret_Hideout/image029.jpg", "IMAGES/Atelier_Ryza_Ever_Darkness_and_the_Secret_Hideout/image030.png"]
+        listaImagens: ["IMAGES/Atelier_Ryza_Ever_Darkness_and_the_Secret_Hideout/image026.jpg", "IMAGES/Atelier_Ryza_Ever_Darkness_and_the_Secret_Hideout/image027.jpg", "IMAGES/Atelier_Ryza_Ever_Darkness_and_the_Secret_Hideout/image028.jpg", "IMAGES/Atelier_Ryza_Ever_Darkness_and_the_Secret_Hideout/image029.jpg", "IMAGES/Atelier_Ryza_Ever_Darkness_and_the_Secret_Hideout/image030.png"]
     },
     {
         idJogo: 7,
@@ -109,7 +109,7 @@ var listaJogosJson = [
         nrEstrelasVazias: 0,
         urlVideo: "https://www.youtube.com/watch?v=lMgm0GdMeZE",
         caminhoImagemPrincipal: "IMAGES/The_Medium/The_Medium_Capa.jpg",
-        listaImagens: ["IMAGES/The_Medium/The_Medium_Capa.jpg", "IMAGES/The_Medium/The_Medium_Banner.jpg", "IMAGES/The_Medium/image031.jpg", "IMAGES/The_Medium/image032.jpg", "IMAGES/The_Medium/image033.jpg", "IMAGES/The_Medium/image034.jpg", "IMAGES/The_Medium/image035.jpg"]
+        listaImagens: ["IMAGES/The_Medium/image031.jpg", "IMAGES/The_Medium/image032.jpg", "IMAGES/The_Medium/image033.jpg", "IMAGES/The_Medium/image034.jpg", "IMAGES/The_Medium/image035.jpg"]
     },
     {
         idJogo: 8,
@@ -125,7 +125,7 @@ var listaJogosJson = [
         nrEstrelasVazias: 1,
         urlVideo: "https://www.youtube.com/watch?v=rtlneRTAM5g",
         caminhoImagemPrincipal: "IMAGES/Re_ZERO_Starting_Life_in_Another_World_The_Prophecy_of_the_Throne/Re_ZERO_Starting_Life_in_Another_World_The_Prophecy_of_the_Throne_Capa.jpg",
-        listaImagens: ["IMAGES/Re_ZERO_Starting_Life_in_Another_World_The_Prophecy_of_the_Throne/Re_ZERO_Starting_Life_in_Another_World_The_Prophecy_of_the_Throne_Capa.jpg", "IMAGES/Re_ZERO_Starting_Life_in_Another_World_The_Prophecy_of_the_Throne/Re_ZERO_Starting_Life_in_Another_World_The_Prophecy_of_the_Throne_Banner.jpg", "IMAGES/Re_ZERO_Starting_Life_in_Another_World_The_Prophecy_of_the_Throne/image036.jpg", "IMAGES/Re_ZERO_Starting_Life_in_Another_World_The_Prophecy_of_the_Throne/image037.jpg", "IMAGES/Re_ZERO_Starting_Life_in_Another_World_The_Prophecy_of_the_Throne/image038.jpg", "IMAGES/Re_ZERO_Starting_Life_in_Another_World_The_Prophecy_of_the_Throne/image039.jpg", "IMAGES/Re_ZERO_Starting_Life_in_Another_World_The_Prophecy_of_the_Throne/image040.jpg"]
+        listaImagens: ["IMAGES/Re_ZERO_Starting_Life_in_Another_World_The_Prophecy_of_the_Throne/image036.jpg", "IMAGES/Re_ZERO_Starting_Life_in_Another_World_The_Prophecy_of_the_Throne/image037.jpg", "IMAGES/Re_ZERO_Starting_Life_in_Another_World_The_Prophecy_of_the_Throne/image038.jpg", "IMAGES/Re_ZERO_Starting_Life_in_Another_World_The_Prophecy_of_the_Throne/image039.jpg", "IMAGES/Re_ZERO_Starting_Life_in_Another_World_The_Prophecy_of_the_Throne/image040.jpg"]
     },
     {
         idJogo: 9,
@@ -141,7 +141,7 @@ var listaJogosJson = [
         nrEstrelasVazias: 2,
         urlVideo: "https://www.youtube.com/watch?v=2G-aTwUY8I4",
         caminhoImagemPrincipal: "IMAGES/Ys_IX_Monstrum_Nox/Ys_IX_Monstrum_Nox_Capa.png",
-        listaImagens: ["IMAGES/Ys_IX_Monstrum_Nox/Ys_IX_Monstrum_Nox_Capa.png", "IMAGES/Ys_IX_Monstrum_Nox/Ys_IX_Monstrum_Nox_Banner.png", "IMAGES/Ys_IX_Monstrum_Nox/image041.jpg", "IMAGES/Ys_IX_Monstrum_Nox/image042.jpg", "IMAGES/Ys_IX_Monstrum_Nox/image043.jpg", "IMAGES/Ys_IX_Monstrum_Nox/image044.jpg", "IMAGES/Ys_IX_Monstrum_Nox/image045.jpg"]
+        listaImagens: ["IMAGES/Ys_IX_Monstrum_Nox/image041.jpg", "IMAGES/Ys_IX_Monstrum_Nox/image042.jpg", "IMAGES/Ys_IX_Monstrum_Nox/image043.jpg", "IMAGES/Ys_IX_Monstrum_Nox/image044.jpg", "IMAGES/Ys_IX_Monstrum_Nox/image045.jpg"]
     },
     {
         idJogo: 10,
@@ -157,6 +157,6 @@ var listaJogosJson = [
         nrEstrelasVazias: 0,
         urlVideo: "https://www.youtube.com/watch?v=p7MRD5nTTbk",
         caminhoImagemPrincipal: "IMAGES/Werewolf_The_Apocalypse_Earthblood/Werewolf_The_Apocalypse_Earthblood_Capa.jpg",
-        listaImagens: ["IMAGES/Werewolf_The_Apocalypse_Earthblood/Werewolf_The_Apocalypse_Earthblood_Capa.jpg", "IMAGES/Werewolf_The_Apocalypse_Earthblood/Werewolf_The_Apocalypse_Earthblood_Banner.jpg", "IMAGES/Werewolf_The_Apocalypse_Earthblood/image046.jpg", "IMAGES/Werewolf_The_Apocalypse_Earthblood/image047.jpg", "IMAGES/Werewolf_The_Apocalypse_Earthblood/image048.jpg", "IMAGES/Werewolf_The_Apocalypse_Earthblood/image049.png", "IMAGES/Werewolf_The_Apocalypse_Earthblood/image050.jpg"]
+        listaImagens: ["IMAGES/Werewolf_The_Apocalypse_Earthblood/image046.jpg", "IMAGES/Werewolf_The_Apocalypse_Earthblood/image047.jpg", "IMAGES/Werewolf_The_Apocalypse_Earthblood/image048.jpg", "IMAGES/Werewolf_The_Apocalypse_Earthblood/image049.png", "IMAGES/Werewolf_The_Apocalypse_Earthblood/image050.jpg"]
     }
 ]
