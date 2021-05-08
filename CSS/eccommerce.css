@@ -260,6 +260,12 @@ body{
     text-align: justify;
 }
 
+footer {
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+}
+
 @media (max-width: 1000px) {
     .pr-50 {
         padding-right: 0px;
