@@ -191,12 +191,27 @@ body{
 }
 
 .imagem-plataforma {
+    height: 100%;
+    width: 100%;
+}
+
+.imagem-resolucao {
     -webkit-background-size: cover !important;
     -moz-background-size: cover !important;
     -o-background-size: cover !important;
     background-size: cover !important;
-    height: 100%;
-    width: 100%;
+}
+
+.imagem-aux {
+    width: 200px;
+    height: 200px;
+    cursor: zoom-in;
+}
+
+.imagem-grande {
+    width: 100% !important;
+    height: 850px;
+
 }
 
 .label-informacao {
@@ -206,6 +221,38 @@ body{
 .info-conta {
     text-transform: uppercase;
     letter-spacing: 1px;
+}
+
+#lista-carrinho a.item-carrinho {
+    background-color: #f3f2f2;
+    border-bottom: 1px solid lightgray;
+}
+
+.totalizador {
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.label-form-compra {
+    font-weight: 700;
+}
+
+#lista-carrinho a.active {
+    text-align: -webkit-center;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.small-text {
+    font-size: 13px;
+    color: gray;
 }
 
 @media (max-width: 1000px) {

@@ -39,38 +39,73 @@
                 </div>
             </nav>
         </div>
-        <div class='plataformas-ecoomerce'>
-            <div class="row col-sm-10 offset-sm-1 mb-5 mt-5">
-                <div class="col-md-4 pr-50 card-plataforma" onclick="exibirCardJogosPorPlataforma('N')">
-                    <div
-                        class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-                        <div class="col p-4 d-flex flex-column position-static">
-                            <h3 class="mb-0 text-danger">Nintendo<i class="fas fa-gamepad fr"></i></h3>
+       
+        <div id="plataformas-jogos">
+            <div class='plataformas-ecoomerce'>
+                <div class="row col-sm-10 offset-sm-1 mb-5 mt-5">
+                    <div class="col-md-4 pr-50 card-plataforma" onclick="exibirCardJogosPorPlataforma('N')">
+                        <div
+                            class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                            <div class="col p-4 d-flex flex-column position-static">
+                                <h3 class="mb-0 text-danger">Nintendo<i class="fas fa-gamepad fr"></i></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 pr-50  card-plataforma" onclick="exibirCardJogosPorPlataforma('X')">
+                        <div
+                            class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                            <div class="col p-4 d-flex flex-column position-static">
+                                <h3 class="mb-0 text-success">Xbox <i class="fab fa-xbox fr"></i> </h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4  card-plataforma" onclick="exibirCardJogosPorPlataforma('P')">
+                        <div
+                            class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                            <div class="col p-4 d-flex flex-column position-static">
+                                <h3 class="mb-0 text-primary">Playstation <i class="fab fa-playstation fr"></i> </h3>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 pr-50  card-plataforma" onclick="exibirCardJogosPorPlataforma('X')">
-                    <div
-                        class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-                        <div class="col p-4 d-flex flex-column position-static">
-                            <h3 class="mb-0 text-success">Xbox <i class="fab fa-xbox fr"></i> </h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4  card-plataforma" onclick="exibirCardJogosPorPlataforma('P')">
-                    <div
-                        class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-                        <div class="col p-4 d-flex flex-column position-static">
-                            <h3 class="mb-0 text-primary">Playstation <i class="fab fa-playstation fr"></i> </h3>
-                        </div>
-                    </div>
-                </div>
+    
             </div>
 
+            <div class="row col-sm-10 offset-sm-1" id="jogosPlataforma">
+               
+            </div>
         </div>
 
-        <div class="row col-sm-10 offset-sm-1" id="jogosPlataforma">
-           
+        <div id="detalhe-jogo" class="mt-5 mb-5">
+            
+            <div class="row col-sm-10 offset-sm-1">
+
+                <div class="col-sm-2" id="listaImagensAux">
+
+                </div>
+
+                <div class="col-sm-5" id="imagemGrande">
+
+                </div>
+                
+                <div class="col-sm-4 offset-sm-1">
+                   
+                    <div class="card">
+
+                        <h6 class="card-header">
+                            <span id="nmJogoPreview"></span>
+                        </h6>
+
+                        <div class="card-body">
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
         </div>
 
         <div id="cardModelo" style="display: none;">
@@ -81,17 +116,17 @@
                         <div clas="card-classificacao text-center mb-2">
                             #estrelas#
                         </div>
-                        <div class="mb-1 text-muted">#dataLancamento#</div>
+                        <div class="mb-1 text-muted">#dataLancamento#</div> 
                         <div class="card-preco mt-5 mb-5">
                             #vlrJogo#
                         </div>
                         <div class="card-botao-adquirir">
-                            <button type="button" class="btn btn-success"><span class="fas fa-shopping-cart"></span>
+                            <button type="button" onclick="showInformacoesJogo('#idJogo#')" class="btn btn-success"><span class="fas fa-shopping-cart"></span>
                                 Adicionar ao Carrinho</button>
                         </div>
                     </div>
                     <div class="col-5 d-none d-lg-block">
-                        <div class="imagem-plataforma" #imagem#></div>
+                        <div class="imagem-plataforma imagem-resolucao" #imagem#></div>
                     </div>
                 </div>
             </div>
