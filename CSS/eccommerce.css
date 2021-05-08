@@ -129,7 +129,7 @@ body{
     text-align: center;
     padding-top: 10px;
     border-top: 1px solid;
-    min-height: 80px;
+    min-height: 120px;
     margin-top: 15px;
 }
 
@@ -263,7 +263,6 @@ body{
 footer {
     bottom: 0;
     width: 100%;
-    position: absolute;
 }
 
 @media (max-width: 1000px) {
